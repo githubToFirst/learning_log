@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: your-site-name
+    env: static
+    buildCommand: "./build.sh"  # 如果有构建过程
+    staticPublishPath: "./dist" # 构建输出目录
